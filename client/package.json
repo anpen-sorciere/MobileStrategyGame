@@ -1,0 +1,22 @@
+{
+  "name": "mobile-strategy-game-client",
+  "version": "0.1.0",
+  "description": "Client for Mobile Strategy Game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.70.0",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
+
