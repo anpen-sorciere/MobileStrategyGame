@@ -25,6 +25,14 @@ dist/
 build/
 *.tsbuildinfo
 
+# Client build outputs
+client/dist/
+client/build/
+
+# Server build outputs
+server/dist/
+server/build/
+
 # Environment
 .env
 .env.local
@@ -38,4 +46,27 @@ coverage/
 .cache/
 .temp/
 .tmp/
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug
+*.log
+*.cache
+
+# Package manager
+.pnpm-debug.log*
+yarn.lock
+package-lock.json.backup
 
